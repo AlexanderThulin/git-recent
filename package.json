@@ -1,0 +1,25 @@
+{
+  "name": "git-recent",
+  "version": "1.0.0",
+  "description": "Small script to see recently checked out git branches and quickly switch between them",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlexanderThulin/git-recent.git"
+  },
+  "keywords": [
+    "git",
+    "recent",
+    "branch",
+    "branches"
+  ],
+  "author": "Alexander Thulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderThulin/git-recent/issues"
+  },
+  "homepage": "https://github.com/AlexanderThulin/git-recent#readme"
+}
