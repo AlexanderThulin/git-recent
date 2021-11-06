@@ -2,7 +2,10 @@
   "name": "git-recent",
   "version": "1.0.0",
   "description": "Small script to see recently checked out git branches and quickly switch between them",
-  "main": "index.mjs",
+  "main": "bin/index.mjs",
+  "bin": {
+    "git-recent": "zx ./bin/index.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/AlexanderThulin/git-recent/issues"
   },
-  "homepage": "https://github.com/AlexanderThulin/git-recent#readme"
+  "homepage": "https://github.com/AlexanderThulin/git-recent#readme",
+  "dependencies": {
+    "zx": "^4.2.0"
+  }
 }
