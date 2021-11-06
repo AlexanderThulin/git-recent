@@ -2,9 +2,9 @@
   "name": "git-recent",
   "version": "1.0.0",
   "description": "Small script to see recently checked out git branches and quickly switch between them",
-  "main": "bin/index.mjs",
+  "main": "bin/index.sh",
   "bin": {
-    "git-recent": "zx ./bin/index.mjs"
+    "git-recent": "./bin/index.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
