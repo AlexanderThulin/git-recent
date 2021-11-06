@@ -1,3 +1,3 @@
 #!/bin/bash
 
-zx ./bin/git-recent.mjs
+zx ./bin/git-recent.mjs $@
