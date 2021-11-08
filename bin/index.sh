@@ -9,7 +9,7 @@ while [ $# -gt 0 ]; do
       echo "-c NUMBER, --checkout=NUMBER   specify the number of the branch you want to checkout"
       echo "-h, --help                     show available options"
       echo "-l, --list                     show list of branches, without selecting one to checkout"
-			echo "-n NUMBER, --number=NUMBER     specify the maximum number of branches you want to list"
+      echo "-n NUMBER, --number=NUMBER     specify the maximum number of branches you want to list"
       exit 0
       ;;
     -c)
@@ -28,9 +28,9 @@ while [ $# -gt 0 ]; do
       else
       	echo "no branch number specified"
         exit 1
-			fi
+      fi
       ;;
-		-n)
+    -n)
       shift
       if [ $# -gt 0 ]; then
         LIMIT=$1
@@ -46,7 +46,7 @@ while [ $# -gt 0 ]; do
       else
       	echo "no limit specified"
         exit 1
-			fi
+      fi
       ;;
     -l|--list)
       LIST=true
@@ -55,7 +55,7 @@ while [ $# -gt 0 ]; do
       echo "-c NUMBER, --checkout=NUMBER   specify the number of the branch you want to checkout"
       echo "-h, --help                     show available options"
       echo "-l, --list                     show list of branches, without selecting one to checkout"
-			echo "-n NUMBER, --number=NUMBER     specify the maximum number of branches you want to list"
+      echo "-n NUMBER, --number=NUMBER     specify the maximum number of branches you want to list"
       exit 0
       ;;
   esac
