@@ -89,7 +89,8 @@ else
     git reflog \
     | egrep -io 'moving from ([^[:space:]]+)' \
     | awk ' !visited[$0]++' \
-    | awk '{ print NR, "-", $3 }' \
+    | awk '{ print $3 }' \
+    | nl -w 2 -s ') ' \
     | head -n $LIMIT
   )
 
