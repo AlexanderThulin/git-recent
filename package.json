@@ -1,6 +1,6 @@
 {
   "name": "recent-git-branches",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Small script to see recently checked out git branches and quickly switch between them",
   "main": "bin/index.sh",
   "bin": {
