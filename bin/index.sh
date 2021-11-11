@@ -95,7 +95,7 @@ else
   )
 
   if [ -n "$BRANCH_NR" ]; then
-    BRANCH=$(grep "^$BRANCH_NR\s" <<< "$RECENT" | awk '{ print $3 }')
+    BRANCH=$(grep "^$BRANCH_NR\)" <<< "$RECENT" | awk '{ print $2 }')
     git checkout "$BRANCH"
 
   else
